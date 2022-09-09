@@ -1,8 +1,8 @@
 <?php
 
-namespace RalphJSmit\TallInstall\Actions\TALL;
+namespace fredcarterwolf\TallInstall\Actions\TALL;
 
-use RalphJSmit\TallInstall\Actions\Filesystem\CopyAction;
+use fredcarterwolf\TallInstall\Actions\Filesystem\CopyAction;
 
 class InitTailwindCSSAction
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace RalphJSmit\TallInstall\Actions\TALL;
+namespace fredcarterwolf\TallInstall\Actions\TALL;
 
-use RalphJSmit\TallInstall\Actions\Composer\ComposerInstallAction;
+use fredcarterwolf\TallInstall\Actions\Composer\ComposerInstallAction;
 
 class InstallFilamentAction
 {

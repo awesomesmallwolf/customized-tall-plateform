@@ -1,6 +1,6 @@
 <?php
 
-namespace RalphJSmit\TallInstall\Exceptions\Filesystem;
+namespace fredcarterwolf\TallInstall\Exceptions\Filesystem;
 
 use Exception;
 

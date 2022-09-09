@@ -1,6 +1,6 @@
 <?php
 
-use RalphJSmit\TallInstall\Actions\General\InstallPestAction;
+use fredcarterwolf\TallInstall\Actions\General\InstallPestAction;
 
 beforeEach(function () {
     $this->prefix = __DIR__ . '/../../../tmp/laravel-8.x-tall';

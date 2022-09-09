@@ -1,11 +1,11 @@
 <?php
 
-namespace RalphJSmit\TallInstall\Actions\DDD;
+namespace fredcarterwolf\TallInstall\Actions\DDD;
 
-use RalphJSmit\Filesystem\Stub;
-use RalphJSmit\TallInstall\Actions\Filesystem\CreateFileAction;
-use RalphJSmit\TallInstall\Actions\Filesystem\CreateFolderAction;
-use RalphJSmit\TallInstall\Actions\Filesystem\DeleteFolderAction;
+use fredcarterwolf\Filesystem\Stub;
+use fredcarterwolf\TallInstall\Actions\Filesystem\CreateFileAction;
+use fredcarterwolf\TallInstall\Actions\Filesystem\CreateFolderAction;
+use fredcarterwolf\TallInstall\Actions\Filesystem\DeleteFolderAction;
 
 class UpdateFileStructureAction
 {

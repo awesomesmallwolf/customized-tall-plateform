@@ -1,9 +1,9 @@
 <?php
 
-namespace RalphJSmit\TallInstall\Actions\Filesystem;
+namespace fredcarterwolf\TallInstall\Actions\Filesystem;
 
 use Illuminate\Support\Str;
-use RalphJSmit\TallInstall\Exceptions\Filesystem\CopyActionFailedException;
+use fredcarterwolf\TallInstall\Exceptions\Filesystem\CopyActionFailedException;
 
 class CopyAction
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace RalphJSmit\TallInstall\Actions\TALL;
+namespace fredcarterwolf\TallInstall\Actions\TALL;
 
-use RalphJSmit\TallInstall\Actions\NPM\NpmInstallAction;
+use fredcarterwolf\TallInstall\Actions\NPM\NpmInstallAction;
 
 class InstallAlpineAction
 {

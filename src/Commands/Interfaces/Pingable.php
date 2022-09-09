@@ -1,6 +1,6 @@
 <?php
 
-namespace RalphJSmit\TallInstall\Commands\Interfaces;
+namespace fredcarterwolf\TallInstall\Commands\Interfaces;
 
 interface Pingable
 {

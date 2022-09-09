@@ -1,24 +1,24 @@
 {
-  "name": "ralphjsmit/tall-install",
+  "name": "fredcarterwolf/tall-install",
   "description": "Quickly scaffold a new Laravel-installation that uses the TALL-stack and install several opinionated packages.",
   "keywords": [
-    "ralphjsmit",
+    "fredcarterwolf",
     "laravel",
     "tall-install"
   ],
-  "homepage": "https://github.com/ralphjsmit/tall-install",
+  "homepage": "https://github.com/fredcarterwolf/tall-install",
   "license": "MIT",
   "authors": [
     {
-      "name": "Ralph J. Smit",
-      "email": "rjs@ralphjsmit.com",
+      "name": "FredCarterWolf J. Smit",
+      "email": "rjs@fredcarterwolf.com",
       "role": "Developer"
     }
   ],
   "require": {
     "php": "^8.0",
     "illuminate/contracts": "^8.73|^9.0",
-    "ralphjsmit/filesystem": "^1.2",
+    "fredcarterwolf/filesystem": "^1.2",
     "spatie/laravel-package-tools": "^1.9.2",
     "symfony/filesystem": "^6.0",
     "symfony/process": "^5.0|^6.0"
@@ -30,13 +30,13 @@
     "pestphp/pest-plugin-laravel": "^1.1",
     "pestphp/pest-plugin-mock": "^1.0",
     "phpunit/phpunit": "^9.5",
-    "ralphjsmit/pest-plugin-filesystem": "^1.0.4",
+    "fredcarterwolf/pest-plugin-filesystem": "^1.0.4",
     "spatie/laravel-ray": "^1.26"
   },
   "autoload": {
     "psr-4": {
-      "RalphJSmit\\TallInstall\\": "src",
-      "RalphJSmit\\TallInstall\\Database\\Factories\\": "database/factories"
+      "fredcarterwolf\\TallInstall\\": "src",
+      "fredcarterwolf\\TallInstall\\Database\\Factories\\": "database/factories"
     },
     "files": [
       "src/Support/helpers.php"
@@ -44,7 +44,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "RalphJSmit\\TallInstall\\Tests\\": "tests"
+      "fredcarterwolf\\TallInstall\\Tests\\": "tests"
     }
   },
   "scripts": {},
@@ -57,10 +57,10 @@
   "extra": {
     "laravel": {
       "providers": [
-        "RalphJSmit\\TallInstall\\TallInstallServiceProvider"
+        "fredcarterwolf\\TallInstall\\TallInstallServiceProvider"
       ],
       "aliases": {
-        "TallInstall": "RalphJSmit\\TallInstall\\Facades\\TallInstall"
+        "TallInstall": "fredcarterwolf\\TallInstall\\Facades\\TallInstall"
       }
     }
   },

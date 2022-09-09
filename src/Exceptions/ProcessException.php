@@ -1,6 +1,6 @@
 <?php
 
-namespace RalphJSmit\TallInstall\Exceptions;
+namespace fredcarterwolf\TallInstall\Exceptions;
 
 use Exception;
 use Symfony\Component\Process\Process;

@@ -1,6 +1,6 @@
 <?php
 
-namespace RalphJSmit\TallInstall\Exceptions;
+namespace fredcarterwolf\TallInstall\Exceptions;
 
 class ComposerCommandFailedException extends ProcessException
 {

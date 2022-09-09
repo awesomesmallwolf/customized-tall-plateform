@@ -1,6 +1,6 @@
 <?php
 
-namespace RalphJSmit\TallInstall;
+namespace fredcarterwolf\TallInstall;
 
 class TallInstall
 {

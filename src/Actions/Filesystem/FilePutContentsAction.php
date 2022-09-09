@@ -1,6 +1,6 @@
 <?php
 
-namespace RalphJSmit\TallInstall\Actions\Filesystem;
+namespace fredcarterwolf\TallInstall\Actions\Filesystem;
 
 class FilePutContentsAction
 {

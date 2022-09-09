@@ -1,6 +1,6 @@
 <?php
 
-namespace RalphJSmit\TallInstall\Actions\Composer;
+namespace fredcarterwolf\TallInstall\Actions\Composer;
 
 class ComposerInstallAction
 {

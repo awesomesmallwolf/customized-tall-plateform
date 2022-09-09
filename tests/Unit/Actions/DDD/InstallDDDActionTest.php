@@ -1,6 +1,6 @@
 <?php
 
-use RalphJSmit\TallInstall\Actions\DDD\InstallDDDAction;
+use fredcarterwolf\TallInstall\Actions\DDD\InstallDDDAction;
 
 beforeEach(function () {
     $this->prefix = __DIR__ . '/../../../tmp/laravel-8.x-tall';

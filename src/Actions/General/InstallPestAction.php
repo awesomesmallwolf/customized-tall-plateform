@@ -1,9 +1,9 @@
 <?php
 
-namespace RalphJSmit\TallInstall\Actions\General;
+namespace fredcarterwolf\TallInstall\Actions\General;
 
-use RalphJSmit\TallInstall\Actions\Composer\ComposerInstallAction;
-use RalphJSmit\TallInstall\Exceptions\PestInstallFailedException;
+use fredcarterwolf\TallInstall\Actions\Composer\ComposerInstallAction;
+use fredcarterwolf\TallInstall\Exceptions\PestInstallFailedException;
 use Symfony\Component\Process\Process;
 
 class InstallPestAction

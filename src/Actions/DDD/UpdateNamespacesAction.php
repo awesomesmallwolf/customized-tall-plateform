@@ -1,10 +1,10 @@
 <?php
 
-namespace RalphJSmit\TallInstall\Actions\DDD;
+namespace fredcarterwolf\TallInstall\Actions\DDD;
 
 use Illuminate\Support\Arr;
-use RalphJSmit\TallInstall\Actions\Filesystem\FileGetContentsAction;
-use RalphJSmit\TallInstall\Actions\Filesystem\FilePutContentsAction;
+use fredcarterwolf\TallInstall\Actions\Filesystem\FileGetContentsAction;
+use fredcarterwolf\TallInstall\Actions\Filesystem\FilePutContentsAction;
 
 class UpdateNamespacesAction
 {

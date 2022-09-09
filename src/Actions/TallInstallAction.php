@@ -1,18 +1,18 @@
 <?php
 
-namespace RalphJSmit\TallInstall\Actions;
+namespace fredcarterwolf\TallInstall\Actions;
 
-use RalphJSmit\TallInstall\Actions\General\InstallGitignoreAction;
-use RalphJSmit\TallInstall\Actions\General\InstallTodoAction;
-use RalphJSmit\TallInstall\Actions\TALL\InitTailwindCSSAction;
-use RalphJSmit\TallInstall\Actions\TALL\InstallAlpineAction;
-use RalphJSmit\TallInstall\Actions\TALL\InstallAssetsAction;
-use RalphJSmit\TallInstall\Actions\TALL\InstallBladeAction;
-use RalphJSmit\TallInstall\Actions\TALL\InstallFilamentAction;
-use RalphJSmit\TallInstall\Actions\TALL\InstallLivewireAction;
-use RalphJSmit\TallInstall\Actions\TALL\InstallTailwindCSSAction;
-use RalphJSmit\TallInstall\Actions\TALL\InstallToastAction;
-use RalphJSmit\TallInstall\Commands\Interfaces\Pingable;
+use fredcarterwolf\TallInstall\Actions\General\InstallGitignoreAction;
+use fredcarterwolf\TallInstall\Actions\General\InstallTodoAction;
+use fredcarterwolf\TallInstall\Actions\TALL\InitTailwindCSSAction;
+use fredcarterwolf\TallInstall\Actions\TALL\InstallAlpineAction;
+use fredcarterwolf\TallInstall\Actions\TALL\InstallAssetsAction;
+use fredcarterwolf\TallInstall\Actions\TALL\InstallBladeAction;
+use fredcarterwolf\TallInstall\Actions\TALL\InstallFilamentAction;
+use fredcarterwolf\TallInstall\Actions\TALL\InstallLivewireAction;
+use fredcarterwolf\TallInstall\Actions\TALL\InstallTailwindCSSAction;
+use fredcarterwolf\TallInstall\Actions\TALL\InstallToastAction;
+use fredcarterwolf\TallInstall\Commands\Interfaces\Pingable;
 
 class TallInstallAction
 {

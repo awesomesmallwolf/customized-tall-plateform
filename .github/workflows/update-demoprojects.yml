@@ -2,7 +2,7 @@ name: "Update demo projects"
 
 on:
   release:
-    types: [ released ]
+    types: [released]
 
 jobs:
   update_default_project:
@@ -10,14 +10,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: "Send webhook to ralphjsmit/tall-install-demo repo"
+      - name: "Send webhook to fredcarterwolf/tall-install-demo repo"
         env:
           WEBHOOK_ACCESS_SECRET: ${{ secrets.WEBHOOK_ACCESS_SECRET }}
         run: |
           curl \
           -X POST \
           -H "Accept: application/vnd.github.v3+json" \
-          https://api.github.com/repos/ralphjsmit/tall-install-demo/dispatches \
+          https://api.github.com/repos/fredcarterwolf/tall-install-demo/dispatches \
           -d '{"event_type":"package_released"}' \
           -u $WEBHOOK_ACCESS_SECRET:x-oauth-basic
 
@@ -26,13 +26,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: "Send webhook to ralphjsmit/tall-install-ddd-demo repo"
+      - name: "Send webhook to fredcarterwolf/tall-install-ddd-demo repo"
         env:
           WEBHOOK_ACCESS_SECRET: ${{ secrets.WEBHOOK_ACCESS_SECRET }}
         run: |
           curl \
           -X POST \
           -H "Accept: application/vnd.github.v3+json" \
-          https://api.github.com/repos/ralphjsmit/tall-install-ddd-demo/dispatches \
+          https://api.github.com/repos/fredcarterwolf/tall-install-ddd-demo/dispatches \
           -d '{"event_type":"package_released"}' \
           -u $WEBHOOK_ACCESS_SECRET:x-oauth-basic

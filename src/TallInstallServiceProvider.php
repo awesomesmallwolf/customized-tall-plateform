@@ -1,8 +1,8 @@
 <?php
 
-namespace RalphJSmit\TallInstall;
+namespace fredcarterwolf\TallInstall;
 
-use RalphJSmit\TallInstall\Commands\TallInstallCommand;
+use fredcarterwolf\TallInstall\Commands\TallInstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace RalphJSmit\TallInstall\Facades;
+namespace fredcarterwolf\TallInstall\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace RalphJSmit\TallInstall\Actions\General;
+namespace fredcarterwolf\TallInstall\Actions\General;
 
 class InstallTodoAction
 {

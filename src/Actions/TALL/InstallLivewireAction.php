@@ -1,10 +1,10 @@
 <?php
 
-namespace RalphJSmit\TallInstall\Actions\TALL;
+namespace fredcarterwolf\TallInstall\Actions\TALL;
 
-use RalphJSmit\TallInstall\Actions\Composer\ComposerInstallAction;
-use RalphJSmit\TallInstall\Actions\DDD\ReplaceNamespaceAction;
-use RalphJSmit\TallInstall\Exceptions\LivewireCommandFailedException;
+use fredcarterwolf\TallInstall\Actions\Composer\ComposerInstallAction;
+use fredcarterwolf\TallInstall\Actions\DDD\ReplaceNamespaceAction;
+use fredcarterwolf\TallInstall\Exceptions\LivewireCommandFailedException;
 use Symfony\Component\Process\Process;
 
 class InstallLivewireAction

@@ -1,6 +1,6 @@
 <?php
 
-namespace RalphJSmit\TallInstall\Actions\NPM;
+namespace fredcarterwolf\TallInstall\Actions\NPM;
 
 class NpmInstallAction
 {

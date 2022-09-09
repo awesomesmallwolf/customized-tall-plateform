@@ -1,11 +1,11 @@
 <?php
 
-namespace RalphJSmit\TallInstall\Actions\TALL;
+namespace fredcarterwolf\TallInstall\Actions\TALL;
 
 use Illuminate\Support\Str;
-use RalphJSmit\TallInstall\Actions\Filesystem\CopyAction;
-use RalphJSmit\TallInstall\Actions\Filesystem\FileGetContentsAction;
-use RalphJSmit\TallInstall\Actions\Filesystem\FilePutContentsAction;
+use fredcarterwolf\TallInstall\Actions\Filesystem\CopyAction;
+use fredcarterwolf\TallInstall\Actions\Filesystem\FileGetContentsAction;
+use fredcarterwolf\TallInstall\Actions\Filesystem\FilePutContentsAction;
 
 class InstallBladeAction
 {

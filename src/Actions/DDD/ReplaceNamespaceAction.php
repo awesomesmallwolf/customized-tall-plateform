@@ -1,10 +1,10 @@
 <?php
 
-namespace RalphJSmit\TallInstall\Actions\DDD;
+namespace fredcarterwolf\TallInstall\Actions\DDD;
 
 use Illuminate\Support\Str;
-use RalphJSmit\TallInstall\Actions\Filesystem\FileGetContentsAction;
-use RalphJSmit\TallInstall\Actions\Filesystem\FilePutContentsAction;
+use fredcarterwolf\TallInstall\Actions\Filesystem\FileGetContentsAction;
+use fredcarterwolf\TallInstall\Actions\Filesystem\FilePutContentsAction;
 
 class ReplaceNamespaceAction
 {

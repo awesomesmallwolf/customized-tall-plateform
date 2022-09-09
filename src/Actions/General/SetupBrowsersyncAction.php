@@ -1,10 +1,10 @@
 <?php
 
-namespace RalphJSmit\TallInstall\Actions\General;
+namespace fredcarterwolf\TallInstall\Actions\General;
 
 use Illuminate\Support\Str;
-use RalphJSmit\TallInstall\Actions\Filesystem\FileGetContentsAction;
-use RalphJSmit\TallInstall\Actions\Filesystem\FilePutContentsAction;
+use fredcarterwolf\TallInstall\Actions\Filesystem\FileGetContentsAction;
+use fredcarterwolf\TallInstall\Actions\Filesystem\FilePutContentsAction;
 
 class SetupBrowsersyncAction
 {

@@ -1,9 +1,9 @@
 <?php
 
-use function RalphJSmit\PestPluginFilesystem\rm;
-use function RalphJSmit\PestPluginFilesystem\rmdir_recursive;
+use function fredcarterwolf\PestPluginFilesystem\rm;
+use function fredcarterwolf\PestPluginFilesystem\rmdir_recursive;
 
-use RalphJSmit\TallInstall\Tests\TestCase;
+use fredcarterwolf\TallInstall\Tests\TestCase;
 use Symfony\Component\Filesystem\Filesystem;
 
 uses(TestCase::class)

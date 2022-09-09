@@ -1,29 +1,10 @@
-![Tall-Install Banner](https://github.com/ralphjsmit/tall-install/blob/main/docs/images/tall-install.jpg)
-
-# Easy command to install the TALL-stack & jumpstart development🚀
-
-[![Run Package Tests](https://github.com/ralphjsmit/tall-install/actions/workflows/run-tests.yml/badge.svg?branch=main)](https://github.com/ralphjsmit/tall-install/actions/workflows/run-tests.yml)
-[![Run Laravel Tests (Pest) (normal version)](https://github.com/ralphjsmit/tall-install-demo/actions/workflows/run-tests.yml/badge.svg?branch=main)](https://github.com/ralphjsmit/tall-install-demo/actions/workflows/run-tests.yml)
-[![Run Laravel Tests (Pest) (DDD-version)](https://github.com/ralphjsmit/tall-install-ddd-demo/actions/workflows/run-tests.yml/badge.svg?branch=main)](https://github.com/ralphjsmit/tall-install-ddd-demo/actions/workflows/run-tests.yml)
-
-This package provides a **simple artisan command for Laravel** that can **fully scaffold** your application and **jumpstart development**.
-
-**It basically runs the installation process for all of your favourite packages, so that you can start developing right away!**
-
-**[⚡️ Check out the release article and subscribe to my newsletter for updates](https://ralphjsmit.com/laravel-tall-install/)**
-
-## Demo projects
-
-👉 **[Check out a demo-project file's structure](https://github.com/ralphjsmit/tall-install-demo)**
-
-👉 **[Check out a demo-project with an automatically generated Domain-Driven file structure](https://github.com/ralphjsmit/tall-install-ddd-demo)**
-
+# Customized TALL-stack Plateform
 ## Features
 
-1. It runs the regular installation process for your favourite TALL-tools, so that you don't have to 🚀
-2. Install Pest instead of PHPUnit ⚙️
-3. Configure a Domain-Driven file structure (DDD)✨
-4. Install Browsersync for Valet users ⚡️
+1. It runs the regular installation process for your favourite TALL-tools, so that you don't have to do it.
+2. Install Pest instead of PHPUnit for testing.
+3. Configure a Domain-Driven file structure (DDD).
+4. Install Browsersync for Valet users.
 
 ### What does it install?
 
@@ -41,7 +22,6 @@ This package provides a **simple artisan command for Laravel** that can **fully 
 
 This package can also do the following things for you:
 
-- [Configure Browsersync for Laravel Valet users](https://ralphjsmit.com/laravel-valet-browsersync/)
 - [Install Pest testing framework instead of PHPUnit](https://pestphp.com)
 - Configure a DDD-file structure.
 
@@ -73,7 +53,7 @@ composer create-project laravel/laravel name
 Install the package via composer:
 
 ```bash
-composer require ralphjsmit/tall-install
+composer require fredcarterwolf/tall-install
 ```
 
 Now run the `tall-install` command:
@@ -173,15 +153,5 @@ php artisan tall-install --browsersync --url=custom.test
 You can remove the package from your Composer dependnecies after you've run the `tall-install` command:
 
 ```bash
-composer remove ralphjsmit/tall-install
+composer remove fredcarterwolf/tall-install
 ```
-
-## General
-
-🐞 If you spot a bug, please submit a detailed issue and I'll try to fix it as soon as possible.
-
-🔐 If you discover a vulnerability, please review [our security policy](../../security/policy).
-
-🙌 If you want to contribute, please submit a pull request. All PRs will be fully credited. If you're unsure whether I'd accept your idea, feel free to contact me!
-
-🙋‍♂️ [Ralph J. Smit](https://ralphjsmit.com)

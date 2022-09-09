@@ -1,8 +1,8 @@
 <?php
 
-namespace RalphJSmit\TallInstall\Actions\NPM;
+namespace fredcarterwolf\TallInstall\Actions\NPM;
 
-use RalphJSmit\TallInstall\Exceptions\NpmCommandFailedException;
+use fredcarterwolf\TallInstall\Exceptions\NpmCommandFailedException;
 use Symfony\Component\Process\Process;
 
 class NpmAction

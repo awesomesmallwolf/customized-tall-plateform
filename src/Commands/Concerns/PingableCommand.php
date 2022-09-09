@@ -1,6 +1,6 @@
 <?php
 
-namespace RalphJSmit\TallInstall\Commands\Concerns;
+namespace fredcarterwolf\TallInstall\Commands\Concerns;
 
 trait PingableCommand
 {

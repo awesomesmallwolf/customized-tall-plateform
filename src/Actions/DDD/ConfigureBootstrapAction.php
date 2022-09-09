@@ -1,8 +1,8 @@
 <?php
 
-namespace RalphJSmit\TallInstall\Actions\DDD;
+namespace fredcarterwolf\TallInstall\Actions\DDD;
 
-use RalphJSmit\TallInstall\Actions\Filesystem\CopyAction;
+use fredcarterwolf\TallInstall\Actions\Filesystem\CopyAction;
 
 class ConfigureBootstrapAction
 {

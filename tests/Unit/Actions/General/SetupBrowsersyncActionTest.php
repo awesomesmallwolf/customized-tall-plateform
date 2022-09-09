@@ -1,6 +1,6 @@
 <?php
 
-use RalphJSmit\TallInstall\Actions\General\SetupBrowsersyncAction;
+use fredcarterwolf\TallInstall\Actions\General\SetupBrowsersyncAction;
 
 beforeEach(function () {
     $this->prefix = __DIR__ . '/../../../tmp/laravel-8.x-tall';

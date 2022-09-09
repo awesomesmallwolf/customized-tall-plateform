@@ -1,6 +1,6 @@
 <?php
 
-namespace RalphJSmit\TallInstall\Actions\DDD;
+namespace fredcarterwolf\TallInstall\Actions\DDD;
 
 class ReplaceNamespacesAction
 {

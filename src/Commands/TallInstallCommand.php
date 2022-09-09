@@ -1,14 +1,14 @@
 <?php
 
-namespace RalphJSmit\TallInstall\Commands;
+namespace fredcarterwolf\TallInstall\Commands;
 
 use Illuminate\Console\Command;
-use RalphJSmit\TallInstall\Actions\DDD\InstallDDDAction;
-use RalphJSmit\TallInstall\Actions\General\InstallPestAction;
-use RalphJSmit\TallInstall\Actions\General\SetupBrowsersyncAction;
-use RalphJSmit\TallInstall\Actions\TallInstallAction;
-use RalphJSmit\TallInstall\Commands\Concerns\PingableCommand;
-use RalphJSmit\TallInstall\Commands\Interfaces\Pingable;
+use fredcarterwolf\TallInstall\Actions\DDD\InstallDDDAction;
+use fredcarterwolf\TallInstall\Actions\General\InstallPestAction;
+use fredcarterwolf\TallInstall\Actions\General\SetupBrowsersyncAction;
+use fredcarterwolf\TallInstall\Actions\TallInstallAction;
+use fredcarterwolf\TallInstall\Commands\Concerns\PingableCommand;
+use fredcarterwolf\TallInstall\Commands\Interfaces\Pingable;
 
 class TallInstallCommand extends Command implements Pingable
 {

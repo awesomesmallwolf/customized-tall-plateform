@@ -1,9 +1,9 @@
 <?php
 
-namespace RalphJSmit\TallInstall\Tests;
+namespace fredcarterwolf\TallInstall\Tests;
 
 use Orchestra\Testbench\TestCase as Orchestra;
-use RalphJSmit\TallInstall\TallInstallServiceProvider;
+use fredcarterwolf\TallInstall\TallInstallServiceProvider;
 
 class TestCase extends Orchestra
 {

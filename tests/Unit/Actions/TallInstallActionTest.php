@@ -1,8 +1,8 @@
 <?php
 
-use function RalphJSmit\PestPluginFilesystem\contents;
+use function fredcarterwolf\PestPluginFilesystem\contents;
 
-use RalphJSmit\TallInstall\Actions\TallInstallAction;
+use fredcarterwolf\TallInstall\Actions\TallInstallAction;
 
 beforeEach(function () {
     $this->prefix = __DIR__ . '/../../tmp/laravel-8.x';

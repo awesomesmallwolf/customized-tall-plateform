@@ -1,8 +1,8 @@
 <?php
 
-namespace RalphJSmit\TallInstall\Actions\Composer;
+namespace fredcarterwolf\TallInstall\Actions\Composer;
 
-use RalphJSmit\TallInstall\Exceptions\ComposerCommandFailedException;
+use fredcarterwolf\TallInstall\Exceptions\ComposerCommandFailedException;
 use Symfony\Component\Process\Process;
 
 class ComposerAction

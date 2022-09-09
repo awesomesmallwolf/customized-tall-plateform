@@ -2,9 +2,9 @@
 
 namespace fredcarterwolf\TallInstall\Actions\DDD;
 
-use Illuminate\Support\Arr;
 use fredcarterwolf\TallInstall\Actions\Filesystem\FileGetContentsAction;
 use fredcarterwolf\TallInstall\Actions\Filesystem\FilePutContentsAction;
+use Illuminate\Support\Arr;
 
 class UpdateNamespacesAction
 {

@@ -2,8 +2,8 @@
 
 namespace fredcarterwolf\TallInstall\Actions\Filesystem;
 
-use Illuminate\Support\Str;
 use fredcarterwolf\TallInstall\Exceptions\Filesystem\CopyActionFailedException;
+use Illuminate\Support\Str;
 
 class CopyAction
 {

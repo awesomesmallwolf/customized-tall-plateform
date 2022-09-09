@@ -2,8 +2,8 @@
 
 namespace fredcarterwolf\TallInstall\Actions\General;
 
-use Illuminate\Support\Str;
 use fredcarterwolf\TallInstall\Actions\Filesystem\FileGetContentsAction;
+use Illuminate\Support\Str;
 
 class InstallGitignoreAction
 {

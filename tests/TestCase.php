@@ -2,8 +2,8 @@
 
 namespace fredcarterwolf\TallInstall\Tests;
 
-use Orchestra\Testbench\TestCase as Orchestra;
 use fredcarterwolf\TallInstall\TallInstallServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {

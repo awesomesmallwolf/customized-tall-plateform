@@ -2,9 +2,9 @@
 
 namespace fredcarterwolf\TallInstall\Actions\DDD;
 
-use Illuminate\Support\Str;
 use fredcarterwolf\TallInstall\Actions\Filesystem\FileGetContentsAction;
 use fredcarterwolf\TallInstall\Actions\Filesystem\FilePutContentsAction;
+use Illuminate\Support\Str;
 
 class ReplaceNamespaceAction
 {

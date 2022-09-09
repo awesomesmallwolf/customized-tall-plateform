@@ -2,13 +2,13 @@
 
 namespace fredcarterwolf\TallInstall\Commands;
 
-use Illuminate\Console\Command;
 use fredcarterwolf\TallInstall\Actions\DDD\InstallDDDAction;
 use fredcarterwolf\TallInstall\Actions\General\InstallPestAction;
 use fredcarterwolf\TallInstall\Actions\General\SetupBrowsersyncAction;
 use fredcarterwolf\TallInstall\Actions\TallInstallAction;
 use fredcarterwolf\TallInstall\Commands\Concerns\PingableCommand;
 use fredcarterwolf\TallInstall\Commands\Interfaces\Pingable;
+use Illuminate\Console\Command;
 
 class TallInstallCommand extends Command implements Pingable
 {

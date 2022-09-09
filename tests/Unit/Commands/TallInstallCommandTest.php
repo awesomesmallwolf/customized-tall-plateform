@@ -1,12 +1,12 @@
 <?php
 
-use Mockery\MockInterface;
-use function Pest\Laravel\artisan;
 use fredcarterwolf\TallInstall\Actions\DDD\InstallDDDAction;
 use fredcarterwolf\TallInstall\Actions\General\InstallPestAction;
 use fredcarterwolf\TallInstall\Actions\General\SetupBrowsersyncAction;
-
 use fredcarterwolf\TallInstall\Actions\TallInstallAction;
+use Mockery\MockInterface;
+
+use function Pest\Laravel\artisan;
 
 it('can install', function () {
     $this->mock(TallInstallAction::class, function (MockInterface $mock) {
